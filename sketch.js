@@ -124,7 +124,7 @@ function draw() {
   if (gameState === PLAY) {
     ground.velocityX = -8;
     count = count + 0.1;
-    if (ground.x < 0) {
+    if (ground.x < width/3 {
       ground.x = ground.width / 2;
     }
 
